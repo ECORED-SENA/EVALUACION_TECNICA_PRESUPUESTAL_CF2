@@ -41,21 +41,20 @@ html(lang="es")
                                     +navTemaItem('3', 'Estructura de un proyecto de FCE', '#tema-3')
                                     +navTemaItem('4', 'Análisis y comprensión de la ficha de evaluación del Programa de Formación Continua Especializada -PFCE', '#tema-4')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
-                                    +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
-        section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
+        section#mainContent        
             #tema-1
                 include pages/1-tema.pug
-            #evaluacion
-                include pages/actividad-1.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug
             #glosario
                 include pages/glosario.pug
-            #anexos
-                include pages/material-complementario.pug
             #referencias
                 include pages/referencias.pug
 
